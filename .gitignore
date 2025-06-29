@@ -1,0 +1,14 @@
+# Python-Cache-Dateien
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+.venv/
+env/
+
+# IDE-Dateien (z. B. von PyCharm)
+.idea/
+*.iml
+
+# Persönliche Daten
+daten.json
