@@ -1,47 +1,17 @@
-# Parkhaus-Simulator (Python-Projekt)
+# Parkhaus-Simulator (Python)
 
-Dies ist ein kleines Python-Programm, mit dem man ein Parkhaus verwalten kann.
+Ein einfacher Simulator zur Verwaltung von Personen, Autos und Parkplätzen. Perfekt für Lernzwecke oder kleine Projekte.
 
-## Funktionen
+## Features
 
-- Personen erstellen
-- Autos mit Farbe, Marke und Reifenart anlegen
+- Personen und Autos anlegen
 - Autos Personen zuweisen
-- Autos in Parkplätze ein- und ausparken
-- Besitzer und Reifentyp anzeigen
-- Alle Daten werden automatisch gespeichert (in der Datei `daten.json`)
+- Ein- und Ausparken
+- Automatische Datenspeicherung in `daten.json`
 
-## Verwendung
+## Installation
 
-1. Projekt herunterladen oder klonen
-2. `main.py` starten (z. B. in PyCharm oder mit `python main.py`)
-3. Das Menü führt durch alle Schritte
-
-## Hinweise
-
-- Läuft nur lokal (nicht direkt auf GitHub testbar)
-- Daten werden beim Beenden automatisch gespeichert
-- Beim Neustart werden alle Daten automatisch wieder geladen
-# Parkhaus-Simulator (Python-Projekt)
-
-Dies ist ein kleines Python-Programm, mit dem man ein Parkhaus verwalten kann.
-
-## Funktionen
-
-- Personen und Autos erstellen
-- Autos Personen zuweisen
-- Autos in Parkplätze ein- und ausparken
-- Besitzer und Reifentyp anzeigen
-- Automatische Datenspeicherung per JSON
-
-## Start
-
-1. Projekt herunterladen
-2. In `main.py` starten:
+1. Repository klonen:
    ```bash
-   python main.py
-
-## Hinweis zur Datenhaltung
-
-Beim Beenden wird automatisch eine Datei `daten.json` erstellt, in der alle eingegebenen Daten lokal gespeichert werden.  
-Diese Datei ist **nicht im Repository enthalten**, um Datenschutz zu gewährleisten.
+   git clone https://github.com/[IhrBenutzername]/parkhaus-simulator.git
+   cd parkhaus-simulator
